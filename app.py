@@ -1,6 +1,6 @@
 import boto3
 
-ec2 = boto3.client('ECR')
+ec2 = boto3.client('ammu')
 
 response = ec2.describe_instances()
 
