@@ -1,6 +1,6 @@
 import boto3
 
-ec2 = boto3.client('RDS')
+ec2 = boto3.client('lambda')
 
 response = ec2.describe_instances()
 
