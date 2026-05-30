@@ -1,6 +1,6 @@
 import boto3
 
-ec2 = boto3.client('sup')
+ec2 = boto3.client('balu')
 
 response = ec2.describe_instances()
 
